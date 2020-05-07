@@ -60,7 +60,6 @@ class Docker {
         --env GITHUB_WORKSPACE=/github/workspace \
         --env GITHUB_ACTION \
         --env GITHUB_RUN_NUMBER \
-        --env GITHUB_RUN_ID \
         --env GITHUB_EVENT_PATH \
         --env RUNNER_OS \
         --env RUNNER_TOOL_CACHE \
